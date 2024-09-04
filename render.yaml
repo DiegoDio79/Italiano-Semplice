@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: language-learning-app
+    env: node
+    buildCommand: 'npm install'
+    startCommand: 'node index.js'
+    plan: free
+    branches:
+      - main
+
